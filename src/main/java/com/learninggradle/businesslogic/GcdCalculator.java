@@ -1,4 +1,4 @@
-package com.learninggradle;
+package com.learninggradle.businesslogic;
 
 
 //function to find gcd of two numbers
@@ -10,7 +10,7 @@ public class GcdCalculator {
     }
 
 //    function to find gcd of n numbers
-    static int gcdArray(int array[]){
+    public static int gcdArray(int array[]){
         int result = array[0];
         for(int element: array){
             result = gcd(result, element);

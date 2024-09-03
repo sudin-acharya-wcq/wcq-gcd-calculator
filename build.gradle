@@ -20,6 +20,6 @@ test {
 
 jar{
     manifest {
-        attributes 'Main-class' : 'com.learninggradle.GcdCalculator'
+        attributes 'Main-class' : 'com.learninggradle.application.Application'
     }
 }
