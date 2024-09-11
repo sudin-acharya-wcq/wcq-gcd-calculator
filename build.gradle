@@ -1,5 +1,6 @@
 plugins {
     id 'java'
+    id 'application'
 }
 
 group = 'org.example'
@@ -23,3 +24,5 @@ jar{
         attributes 'Main-class' : 'com.learninggradle.application.Application'
     }
 }
+
+mainClassName = 'com.learninggradle.application.Application'
