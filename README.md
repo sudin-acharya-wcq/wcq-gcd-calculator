@@ -37,8 +37,17 @@ The project uses Gradle to build the application
 This will compile the source files and generate the required build artifacts in the build/ directory
 
 How to run
-After building the project, it can be run by command:
-    java -jar build/libs/GcdCalculator.jar
+After building the project, it can be run by passing the integers as command-line arguments. 
+./gradlew run --args="number1 number2 number3.....numberN"
+
+for example:
+./gradle run --args="2 3 5 7"
+
+This will output: 
+The GCD of provided numbers is : 1
+
+If no argument is provided it will display an error message:
+Please provide integers as a command line arguments.
 
 How to test
 The project includes unit tests for the GcdCalculation logic. The test can be run by:
