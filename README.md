@@ -32,7 +32,9 @@ How to Build
 The project uses Gradle to build the application
 1. Clone the repository:
     git clone https://github.com/sudin-acharya-wcq/wcq-gcd-calculator.git
-2. Build the project using gradle:
+2. Generate gradle-wrapper.jar file
+    gradle wrapper 
+3. Build the project using gradle:
    ./gradlew build
 This will compile the source files and generate the required build artifacts in the build/ directory
 
